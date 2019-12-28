@@ -1,0 +1,69 @@
+.menu-account {
+  background-color: $midnight;
+}
+
+.title_menu-account {
+  color: $white;
+  font-weight: 300;
+  font-size: ($size1 + 2px);
+  padding: $size1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.header-menu {
+  margin-top: 50px;
+}
+
+.brand-logo {
+  border-top: 1px solid $black;
+  border-bottom: 1px solid $black;
+  font-size: $size4;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: $size2;
+  margin-bottom: ($size1 + 5px);
+  color: $black;
+  font-family: 'Pathway Gothic One', sans-serif;
+
+  &:hover {
+    text-decoration: none;
+    color: $black;
+  }
+}
+
+.dropdown > .dropdown-toggle {
+  color: $grey;
+  font-size: ($size1 + 4px);
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: ($size1 + 13px);
+  text-transform: uppercase;
+}
+
+.dropdown-menu > .dropdown-item {
+  color: $grey;
+  font-size: ($size1 + 4px);
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: ($size1 + 13px);
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: none;
+    color: $grey;
+  }
+}
+
+.cart > a {
+  color: $grey;
+  font-size: ($size1 + 4px);
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  &:hover {
+    text-decoration: none;
+    color: $grey;
+  }
+}

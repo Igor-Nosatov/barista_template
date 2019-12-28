@@ -1,0 +1,39 @@
+.main-button{
+  color: $white;
+  background:  $midnight;
+  border-color:  $midnight;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding:$size1;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: ($size1 + 4px);
+  vertical-align: text-bottom;
+
+  &:hover{
+      color: $white;
+  }
+}
+.banner-button{
+  color: $black;
+  background: $white;
+  border-color: $midnight;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding:$size1;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: ($size1 + 4px);
+  vertical-align: text-bottom;
+  margin-left: $size2;
+  margin-bottom: $size4;
+
+  &:hover{
+      color: $white;
+      background-color: $midnight;
+  }
+}

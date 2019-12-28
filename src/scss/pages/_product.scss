@@ -1,0 +1,42 @@
+.card-body {
+  padding: 0;
+}
+
+.title_description {
+  font-size: ($size2 - 2px);
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: $davy-grey;
+  text-transform: uppercase;
+  border-bottom: 2px solid grey;
+}
+
+.title-related_products {
+  font-size: ($size2 - 2px);
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: $davy-grey;
+  padding-left: $size1;
+  text-transform: uppercase;
+}
+
+.product-title {
+  font-size: $size2;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: $davy-grey;
+  text-align: left;
+}
+
+.product-description,
+.price,
+.checkout-title,
+.contact-title,
+.total {
+  padding-top: ($size2 - 4px);
+  font-size: ($size2 - 4px);
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: $davy-grey;
+  text-align: left;
+}

@@ -1,0 +1,20 @@
+.fa-search{
+  color: $grey;
+  font-size: ($size2 - 2px);
+  font-weight: bold;
+  padding-top: ($size2 - 2px);
+}
+
+.fa-shopping-bag {
+  color: $grey;
+  font-size: ($size2 + 8px);
+  font-weight: bold;
+}
+
+.fa-times{
+  color: $grey;
+  font-size: ($size2 + 8px);
+  &:hover{
+    color: $grey;
+  }
+}

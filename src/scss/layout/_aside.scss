@@ -1,0 +1,55 @@
+.aside,
+.featured-products{
+  padding-right: $size2;
+}
+.products-brands,
+.products-equipment,
+.products-tools {
+  padding-top: $size1;
+}
+
+.title_product-brands,
+.title_product-categories,
+.title_product-equipment,
+.title_product-featured,
+.title_product-tools {
+  padding: 0 0 5px;
+  margin-bottom: ($size1 + 5px);
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: $davy-grey;
+  padding: $size1 0;
+}
+
+.title_product-categories,
+.title_product-featured {
+  font-size: ($size1 + 8px);
+  border-bottom: 3px solid $grey;
+}
+
+.title_product-brands,
+.title_product-equipment,
+.title_product-tools {
+  font-size: ($size1 + 6px);
+  border-bottom: 3px solid $grey;
+}
+
+.nav > .nav-item > .nav-link_product-brands,
+.nav > .nav-item > .nav-link_product-equipment,
+.nav > .nav-item > .nav-link_product-tools {
+  font-size: ($size1 + 4px);
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: $davy-grey;
+  padding-left: $size1;
+}
+
+.sort_area{
+  background-color: $grey;
+  padding-left: $size2;
+  padding-right: $size2;
+}
+.sort>.form-control{
+border-radius:0rem;
+margin-top: ($size2 - 5px);
+}

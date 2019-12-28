@@ -1,0 +1,13 @@
+.sort > .form-group > .form-control {
+  padding: $size2;
+  margin-top: ($size2 - 5px);
+  border-radius: 0;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  padding: ($size2 - 5px);
+  letter-spacing: 2px;
+  font-size: ($size2 - 2px);
+  font-weight: 900;
+}

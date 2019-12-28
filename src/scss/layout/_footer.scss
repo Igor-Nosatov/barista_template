@@ -1,0 +1,51 @@
+.footer {
+  background-color: $grey;
+  padding-top: $size4;
+  padding-bottom: $size4;
+}
+
+.title-footer {
+  color: $white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: $size1;
+  font-size: ($size1 + 6px);
+}
+.title-line{
+  border-bottom: 3px solid  $white;
+}
+
+.link-footer {
+  color: $white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: $size1;
+  border-bottom: 1px solid  $white;
+  font-size: ($size1 + 4px);
+  &:hover{
+    color: $white;
+  }
+}
+.text-footer{
+  color: $white;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: $size1;
+  font-size: ($size1 + 4px);
+}
+.tag{
+  padding: 5px;
+  margin: 5px;
+  border:1px solid $white;
+  float: left;
+
+}
+.tag-link{
+  font-size: ($size1 + 2px);
+  letter-spacing: 1px;
+  font-weight: 100px;
+  color: $white;
+  &:hover{
+    color: $white;
+  }
+}

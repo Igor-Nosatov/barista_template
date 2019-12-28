@@ -1,0 +1,14 @@
+.breadcrumb{
+  padding:$size2 0px;
+}
+.breadcrumb>.breadcrumb-item{
+ color: $grey;
+ letter-spacing: 3px;
+ font-weight:bold;
+ font-size: ($size2 - 6px);
+ text-transform: uppercase;
+}
+.breadcrumb>.breadcrumb-barista{
+  padding: $size2;
+  background-color: $grey;
+}

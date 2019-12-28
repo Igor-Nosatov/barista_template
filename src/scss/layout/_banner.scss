@@ -1,0 +1,55 @@
+.banner_area{
+  background-image: url(../img/bl1.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  padding-bottom: $size4;
+}
+
+.wrapper-banner1{
+  background-image: url(../img/bl2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
+.wrapper-banner2{
+  background-image: url(../img/bl3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+.wrapper-banner3{
+  background-image: url(../img/bl4.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+.wrapper-banner4{
+  background-image: url(../img/bl5.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+
+.banner-title {
+  font-weight: 800;
+  font-size: $size3;
+  color: $white;
+  padding: $size1;
+  padding-bottom: 3px;
+  letter-spacing: 3px;
+}
+.sub-banner-title{
+  font-weight: 200;
+  font-size: ($size1 +14px);
+  color: $white;
+  padding: $size1;
+  padding-top: 3px;
+  letter-spacing: 2px;
+}

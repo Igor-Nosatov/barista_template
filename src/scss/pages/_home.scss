@@ -1,0 +1,90 @@
+.line1,
+.line2 {
+  padding: 1px;
+  width: 35%;
+  height: 1px;
+  border-bottom: 4px solid $grey;
+  margin-top: ($size2 + 5px);
+}
+
+
+.line3 {
+  padding: 1px;
+  width: 72%;
+  height: 1px;
+  border-bottom: 4px solid $grey;
+  margin-top: ($size2 + 5px);
+}
+.supplies_area{
+  background-color: $light-grey;
+}
+
+.title-supplies_area {
+  margin-left: $size1;
+  margin-right: $size1;
+  padding: $size1;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.title-supplies_area1 {
+  margin-left: $size1;
+  margin-right: $size1;
+  padding: $size1;
+  color:$white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.card{
+  box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.card-title{
+  text-align: center;
+  font-size: ($size1 + 4px);
+  color: $grey;
+  font-weight: 300;
+  &:hover{
+    color: $black !important;
+    text-decoration: none;
+  }
+}
+.card-text{
+  text-align: center;
+  font-size: ($size1 + 4px);
+  color: $grey;
+  font-weight: 300;
+}
+.card-price{
+  text-align: center;
+  color: $black !important;
+  font-size: $size2;
+  font-weight: bold;
+  &:hover{
+    color: $black !important;
+    text-decoration: none;
+  }
+}
+
+.best_selling_product{
+  background-color: $midnight;
+  padding: $size2 0px;
+
+}
+
+.image-shipping_area{
+  margin-left: 45%;
+}
+
+.title-shipping_area{
+ padding:$size1;
+ font-weight: bold;
+ letter-spacing: 3px;
+ font-size: $size2;
+
+}
+.subtitle-shipping_area{
+  padding:$size1;
+  font-weight: 200;
+  letter-spacing: 3px;
+  font-size:($size2 - 4px);
+}
